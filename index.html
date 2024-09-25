@@ -1,79 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title>Innovaciones en el Aplicación Programas de Empleo</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			margin: 20px;
-		}
-		.container {
-			background-color: #f9f9f9;
-			padding: 20px;
-			border: 1px solid #ccc;
-			border-radius: 10px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-		}
-		.date {
-			font-weight: bold;
-			margin-bottom: 10px;
-		}
-		.feature {
-			margin-bottom: 20px;
-		}
-		.feature h2 {
-			margin-top: 0;
-		}
-		.feature p {
-			margin-bottom: 10px;
-		}
-		.image {
-			width: 100%;
-			height: auto;
-			margin-bottom: 10px;
-			border-radius: 10px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-		}
-		@media (max-width: 768px) {
-			.image {
-				width: 50%;
-				margin: 0 auto;
-			}
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body bgcolor="White" text="Black"> Provincia de Córdoba, Argentina
-	<p> En un evento con Grabois, el Papa criticó al gobierno de Milei por la represión a las protestas.
-	</p> 
-	<p> Tickets soporte usuario </p>
-	<div class="container">
-		<h1>Turnero digital</h1>
-		<p>LLego como vos no lo esperabas. </p>
-		<!-- Añade aquí tus entradas diarias -->
-		<div class="date">2023-03-01</div>
-		<title>titulo</title>
-		<div class="feature">
-			<h2 id="imagenes" " >Imagenes</h2></h2>
-			<section class="carrusel"
-			 <div class="carrusel-img"<>/div> 
-			<p>Descripción de la feature 1</p>
-			<img src="Logo-Ministerio-de-Desarrollo-Social-y-Promocion-del-Empleo-03.png" alt=Ministerio de Desarrollo Social y Promoción del Empleo> 
-		</div>
-		<div class="feature">
-			<h2>Feature 2</h2>
-			<p>Descripción de la feature 2</p>
-			<img src="/images/feature2.jpg" alt="Imagen de la feature 2" class="image">
-		</div>
-		<div class="feature">
-			<h2>Feature 3</h2>
-			<p>Descripción de la feature 2</p>
-			<img src="/images/feature2.jpg" alt="Imagen de la feature 2" class="image">
-		</div>
-		<div class="feature">
-			<h2>otra cosa</h2>
-			<p>Descripción de la feature 2</p>
-			<img src="/images/feature2.jpg" alt="Imagen de la feature 2" class="image">
-		</div>
-	</div>
+<body>
+    <div class="login-container">
+        <h1>Iniciar Sesión</h1>
+        <form id="login-form">
+            <input type="text" placeholder="Usuario" required>
+            <input type="password" placeholder="Contraseña" required>
+            <button type="submit">Entrar</button>
+        </form>
+        <div class="forgot-password">
+            <a href="#">¿Olvidaste tu contraseña?</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
