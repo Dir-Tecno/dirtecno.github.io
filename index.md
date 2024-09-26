@@ -1,11 +1,9 @@
-# Bienvenido Jose  Vigilante
+# Bienvenido Jose 
 
 Este es un sitio web simple alojado con GitHub Pages.
 
 ## Sobre Jose
-
-Soy [Jose], un desarrollador apasionado por la tecnología y los hombres con torsos desnudos
-
+En proceso de aprendizaje 
 ## Proyectos
 
 - Proyecto 1: [Enlace a tu proyecto](xvideos.com)
