@@ -1,54 +1,51 @@
-/* Fondo con gradiente */
 body {
-  background: linear-gradient(135deg, #e0e0e0 30%, #ffffff 100%);
+  background: linear-gradient(135deg, #4A90E2 30%, #F0F4F8 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* Contenedor del formulario */
 .login-container {
   background-color: #ffffff;
   padding: 2rem;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
   width: 350px;
   text-align: center;
 }
-
-/* Encabezado del formulario */
 h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #333;
   margin-bottom: 1.5rem;
 }
-
-/* Estilos para los campos del formulario */
 .form-control {
   margin-bottom: 1.2rem;
-  border-radius: 6px;
-  border: 1px solid #cccccc;
+  border-radius: 8px;
+  border: 1px solid #dddddd;
   padding: 0.8rem;
   font-size: 1rem;
+  transition: border-color 0.3s ease;
 }
 
-/* Estilo del botón */
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
 .login-btn {
   background-color: #007bff;
   color: white;
   width: 100%;
   padding: 0.75rem;
-  border-radius: 6px;
+  border-radius: 8px;
   border: none;
   font-size: 1.1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-/* Efecto hover para el botón */
 .login-btn:hover {
   background-color: #0056b3;
 }
@@ -57,14 +54,20 @@ h2 {
 a {
   color: #007bff;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #0056b3;
 }
-
-/* Espacio para el mensaje debajo del formulario */
 p {
   margin-top: 1.5rem;
+}
+.input-icon {
+  position: absolute;
+  left: 15px;
+  top: 12px;
+  color: #007bff;
 }
 
