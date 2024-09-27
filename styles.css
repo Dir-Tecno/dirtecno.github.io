@@ -7,16 +7,19 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  padding: 0 20px;
 }
 
 /* Contenedor del formulario */
 .login-container {
   background-color: #ffffff
   padding: 2rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
   width: 350px;
   text-align: center;
+  max-Width: 100%;
+  margin: 20px auto;
 }
 
 /* Encabezado del formulario */
@@ -40,6 +43,7 @@ h2 {
   border: 1px solid #dddddd;
   font-size: 1rem;
   transition: border-color 0.3s ease;
+  box-sizing:border-box;
 }
 
 .form-control:focus {
