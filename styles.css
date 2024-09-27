@@ -1,3 +1,4 @@
+/* Fondo con gradiente */
 body {
   background: linear-gradient(135deg, #4A90E2 30%, #F0F4F8 100%);
   display: flex;
@@ -8,6 +9,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Contenedor del formulario */
 .login-container {
   background-color: #ffffff;
   padding: 2rem;
@@ -16,16 +18,26 @@ body {
   width: 350px;
   text-align: center;
 }
+
+/* Encabezado del formulario */
 h2 {
   font-size: 2rem;
   color: #333;
   margin-bottom: 1.5rem;
 }
+
+/* Estilos para los campos del formulario */
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
 .form-control {
-  margin-bottom: 1.2rem;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  padding-left: 2.5rem; /* Deja espacio para el icono */
   border-radius: 8px;
   border: 1px solid #dddddd;
-  padding: 0.8rem;
   font-size: 1rem;
   transition: border-color 0.3s ease;
 }
@@ -34,6 +46,18 @@ h2 {
   border-color: #007bff;
   outline: none;
 }
+
+/* Estilo del icono */
+.input-icon {
+  position: absolute;
+  left: 10px;  /* Posiciona el icono a la izquierda */
+  top: 50%;
+  transform: translateY(-50%);  /* Centra el icono verticalmente */
+  color: #007bff;
+  font-size: 1.2rem;
+}
+
+/* Estilo del botón */
 .login-btn {
   background-color: #007bff;
   color: white;
@@ -61,13 +85,9 @@ a:hover {
   text-decoration: underline;
   color: #0056b3;
 }
+
+/* Espacio para el mensaje debajo del formulario */
 p {
   margin-top: 1.5rem;
-}
-.input-icon {
-  position: absolute;
-  left: 15px;
-  top: 12px;
-  color: #007bff;
 }
 
