@@ -1,43 +1,41 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login - Página estilo Bancor</title>
 
+  <!-- Vincular el archivo de estilos -->
   <link rel="stylesheet" href="styles.css">
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   
+  <!-- Font Awesome para los iconos -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
- <div class="login-container">
-  <h2>Iniciar Sesión</h2>
+  <div class="login-container">
+    <h2>Iniciar Sesión</h2>
 
-  <form>
-    <div class="form-group">
-      <i class="fas fa-envelope input-icon"></i>
-      <input type="email" class="form-control" id="username" placeholder="Ingresa tu correo" required>
-    </div>
+    <form>
+      <!-- Campo de correo electrónico -->
+      <div class="form-group">
+        <i class="fas fa-envelope input-icon"></i>
+        <input type="email" class="form-control" id="username" placeholder="Ingresa tu correo" required>
+      </div>
 
-    <div class="form-group">
-      <i class="fas fa-lock input-icon"></i>
-      <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña" required>
-    </div>
+      <!-- Campo de contraseña -->
+      <div class="form-group">
+        <i class="fas fa-lock input-icon"></i>
+        <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña" required>
+      </div>
 
-    <button type="submit" class="login-btn">Iniciar sesión</button>
-  </form>
-
-  <p>
-    <a href="#">¿Olvidaste tu contraseña?</a>
-  </p>
-</div>
-      
-      <button type="submit" class="btn login-btn">Iniciar sesión</button>
+      <!-- Botón de inicio de sesión -->
+      <button type="submit" class="login-btn">Iniciar sesión</button>
     </form>
-    
-    <p class="text-center mt-3">
+
+    <p>
       <a href="#">¿Olvidaste tu contraseña?</a>
     </p>
   </div>
@@ -46,4 +44,5 @@
   <script src="scripts.js"></script>
 </body>
 </html>
+
 
