@@ -1,6 +1,6 @@
 /* Fondo con gradiente */
 body {
-  background: linear-gradient(135deg, #4A90E2 30%, #F0F4F8 100%);
+  background-color: #ffffff; /* Fondo blanco */
   display: flex;
   justify-content: center;
   align-items: center;
