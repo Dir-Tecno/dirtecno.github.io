@@ -1,97 +1,46 @@
-/* Fondo con gradiente */
+/* estilos.css */
 body {
-  background-color: #ffffff; /* Fondo blanco */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  padding: 0 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-/* Contenedor del formulario */
-.login-container {
-  background-color: #ffffff
-  padding: 2rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  border-radius: 16px;
-  width: 350px;
-  text-align: center;
-  max-Width: 100%;
-  margin: 20px auto;
+header {
+    background-color: #0056a5; /* Color del encabezado */
+    padding: 15px;
 }
 
-/* Encabezado del formulario */
-h2 {
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 1.5rem;
+header ul {
+    list-style: none;
+    text-align: center;
 }
 
-/* Estilos para los campos del formulario */
-.form-group {
-  position: relative;
-  margin-bottom: 1.5rem;
+header ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-.form-control {
-  width: 100%;
-  padding: 0.8rem 1rem;
-  padding-left: 2.5rem; /* Deja espacio para el icono */
-  border-radius: 8px;
-  border: 1px solid #dddddd;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
-  box-sizing:border-box;
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 }
 
-.form-control:focus {
-  border-color: #007bff;
-  outline: none;
+.hero {
+    background-color: #f0f0f0; /* Fondo suave */
+    text-align: center;
+    padding: 50px 20px;
 }
 
-/* Estilo del icono */
-.input-icon {
-  position: absolute;
-  left: 10px;  /* Posiciona el icono a la izquierda */
-  top: 50%;
-  transform: translateY(-50%);  /* Centra el icono verticalmente */
-  color: #007bff;
-  font-size: 1.2rem;
+.programas {
+    padding: 20px;
+    text-align: center;
 }
 
-/* Estilo del botón */
-.login-btn {
-  background-color: #007bff;
-  color: white;
-  width: 100%;
-  padding: 0.75rem;
-  border-radius: 8px;
-  border: none;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.login-btn:hover {
-  background-color: #0056b3;
-}
-
-/* Link de "Olvidaste tu contraseña" */
-a {
-  color: #007bff;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #0056b3;
-}
-
-/* Espacio para el mensaje debajo del formulario */
-p {
-  margin-top: 1.5rem;
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
