@@ -1,7 +1,7 @@
 /* General */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f4f4f4;
     color: #333;
     margin: 0;
     padding: 0;
@@ -10,8 +10,8 @@ body {
 header {
     background-color: #2c3e50;
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
 }
 
 header h1 {
@@ -44,13 +44,18 @@ main {
 section {
     background-color: white;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+h2, h3 {
     color: #2c3e50;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
 }
 
 footer {
@@ -58,7 +63,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: absolute;
-    width: 100%;
+    position: relative;
     bottom: 0;
+    width: 100%;
 }
