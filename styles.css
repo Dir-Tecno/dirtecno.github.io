@@ -7,13 +7,12 @@ html {
 /* Aquí siguen tus otras reglas CSS */
 /* Estilos generales */
 body {
-    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; /* Fondo suave */
 }
 
-/* Estilos de sección */
 section {
-    padding: 40px 20px;
-    margin-bottom: 30px;
+    background-color: #ffffff; /* Fondo blanco para secciones */
+    border-radius: 8px; /* Bordes redondeados para secciones */
 }
 
 /* Estilos de las tarjetas de programas */
@@ -32,16 +31,11 @@ section {
 
 /* Estilos de botones */
 .btn {
-    background-color: #004aad;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    background-color: #007bff; /* Azul más brillante */
 }
 
 .btn:hover {
-    background-color: #003399;
+    background-color: #0056b3; /* Un azul más oscuro al pasar el mouse */
 }
 
 /* Otros estilos... */ 
@@ -84,6 +78,13 @@ section {
 h1, h2 {
     text-align: center;
     color: #004aad; /* Usa un azul similar al del menú */
+    h2 {
+    color: #004aad; /* Un azul que combine */
+}
+
+p {
+    color: #333; /* Texto oscuro para buena legibilidad */
+}
 }
 
 /*mejoras en el footer */
