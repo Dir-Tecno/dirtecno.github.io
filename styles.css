@@ -12,7 +12,16 @@ body {
 body {
     font-family: 'Roboto', sans-serif;
 }
-
+section {
+    margin-bottom: 40px;
+}
+/* Aquí agregarías el código para los colores alternados */
+section:nth-child(even) {
+    background-color: #f4f4f4; /* Fondo gris claro para secciones pares */
+}
+section:nth-child(odd) {
+    background-color: white; /* Fondo blanco para secciones impares */
+}
 header {
     background-color: #004aad; /* Color azul más oscuro */
 }
@@ -20,30 +29,43 @@ header {
 nav ul li a {
     color: white;
     font-size: 16px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    font-weight: bold;
+nav ul li a:hover {
+    background-color: #003399; /* Un azul más oscuro al pasar el mouse */
+    color: #ffff99; /* Cambio de color del texto al pasar el mouse */
 }
 
 main {
     padding-top: 60px; /* Espacio para que no se solape con el menú fijo */
 }
 
+/* CSS para Centrar Secciones */
 section {
+    max-width: 1200px; /* Limita el ancho máximo para evitar que el contenido se expanda demasiado */
+    margin: 0 auto; /* Centra las secciones horizontalmente */
     padding: 40px 20px;
-    margin: 20px 0;
 }
+
+h1, h2 {
+    text-align: center;
+    color: #004aad; /* Usa un azul similar al del menú */
+}
+
+/*mejoras en el footer */
 footer {
-    background-color: #0044cc;
+    background-color: #004aad;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
 }
