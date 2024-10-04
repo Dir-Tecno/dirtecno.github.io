@@ -1,3 +1,14 @@
+/* Archivo styles.css */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Aquí siguen tus otras reglas CSS */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
