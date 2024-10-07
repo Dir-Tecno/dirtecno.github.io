@@ -1,131 +1,42 @@
-/* Archivo styles.css */
-
-html {
-    scroll-behavior: smooth;
+/* Reseteo básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Aquí siguen tus otras reglas CSS */
-/* Estilos generales */
+/* Estilos para el cuerpo */
 body {
-    background-color: #f8f9fa; /* Fondo suave */
-     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  background-color: #f9f9f9; /* Fondo claro */
 }
 
-section {
-    background-color: #ffffff; /* Fondo blanco para secciones */
-    border-radius: 8px; /* Bordes redondeados para secciones */
-}
-
-/* Estilos de las tarjetas de programas */
-.programa-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-}
-
-.programa-card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Estilos de botones */
-.btn {
-    background-color: #007bff; /* Azul más brillante */
-}
-
-.btn:hover {
-    background-color: #0056b3; /* Un azul más oscuro al pasar el mouse */
-}
-
-/* Otros estilos... */ 
-
-/* Aquí agregarías el código para los colores alternados */
-section:nth-child(even) {
-    background-color: #f4f4f4; /* Fondo gris claro para secciones pares */
-}
-section:nth-child(odd) {
-    background-color: white; /* Fondo blanco para secciones impares */
-}
-/* Encabezado fijo */
+/* Encabezado */
 header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #fff; /* Color de fondo del encabezado */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para el encabezado */
+  background-color: #007BFF; /* Color del encabezado */
+  color: white; /* Color del texto en el encabezado */
+  padding: 10px; /* Espaciado */
+  position: fixed; /* Fijo en la parte superior */
+  width: 100%; /* Ocupa todo el ancho */
 }
 
-/* Estilos para botones */
+/* Secciones */
+section {
+  margin-top: 60px; /* Espacio para el encabezado fijo */
+  padding: 20px; /* Espacio interno */
+}
+
+/* Botones */
 .button {
-  background-color: #007BFF; /* Color de fondo */
-  color: #fff; /* Color del texto */
-  padding: 10px 20px;
-  border: none;
+  background-color: #007BFF; /* Color del botón */
+  color: white; /* Color del texto */
+  padding: 10px 15px; /* Espaciado interno */
+  border: none; /* Sin bordes */
   border-radius: 5px; /* Bordes redondeados */
-  cursor: pointer; /* Cambiar cursor */
+  cursor: pointer; /* Cambiar cursor al pasar por encima */
 }
 
 /* Efecto hover para botones */
 .button:hover {
-  background-color: #0056b3; /* Color al pasar el mouse */
-}
-
-/* Secciones con espaciado */
-section {
-  margin-top: 80px; /* Espacio para el encabezado fijo */
-  padding: 20px; /* Espaciado interno */
-}
-
-
-nav ul li a {
-    color: white;
-    font-size: 16px;
-    padding: 10px 15px;
-    text-transform: uppercase;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-nav ul li a:hover {
-    background-color: #003399; /* Un azul más oscuro al pasar el mouse */
-    color: #ffff99; /* Cambio de color del texto al pasar el mouse */
-}
-
-main {
-    padding-top: 60px; /* Espacio para que no se solape con el menú fijo */
-}
-
-/* CSS para Centrar Secciones */
-section {
-    max-width: 1200px; /* Limita el ancho máximo para evitar que el contenido se expanda demasiado */
-    margin: 0 auto; /* Centra las secciones horizontalmente */
-    padding: 40px 20px;
-}
-
-h1, h2 {
-    text-align: center;
-    color: #004aad; /* Usa un azul similar al del menú */
-    h2 {
-    color: #004aad; /* Un azul que combine */
-}
-
-p {
-    color: #333; /* Texto oscuro para buena legibilidad */
-}
-}
-
-/*mejoras en el footer */
-footer {
-    background-color: #004aad;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
+  background-color: #0056b3; /* Color del botón al pasar el mouse */
 }
