@@ -48,9 +48,36 @@ section:nth-child(even) {
 section:nth-child(odd) {
     background-color: white; /* Fondo blanco para secciones impares */
 }
+/* Encabezado fijo */
 header {
-    background-color: #004aad; /* Color azul más oscuro */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff; /* Color de fondo del encabezado */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para el encabezado */
 }
+
+/* Estilos para botones */
+.button {
+  background-color: #007BFF; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar cursor */
+}
+
+/* Efecto hover para botones */
+.button:hover {
+  background-color: #0056b3; /* Color al pasar el mouse */
+}
+
+/* Secciones con espaciado */
+section {
+  margin-top: 80px; /* Espacio para el encabezado fijo */
+  padding: 20px; /* Espaciado interno */
+}
+
 
 nav ul li a {
     color: white;
@@ -101,34 +128,4 @@ footer {
 
 footer p {
     margin: 0;
-}
-
-/* Encabezado fijo */
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #fff; /* Color de fondo del encabezado */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para el encabezado */
-}
-
-/* Estilos para botones */
-.button {
-  background-color: #007BFF; /* Color de fondo */
-  color: #fff; /* Color del texto */
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px; /* Bordes redondeados */
-  cursor: pointer; /* Cambiar cursor */
-}
-
-/* Efecto hover para botones */
-.button:hover {
-  background-color: #0056b3; /* Color al pasar el mouse */
-}
-
-/* Secciones con espaciado */
-section {
-  margin-top: 80px; /* Espacio para el encabezado fijo */
-  padding: 20px; /* Espaciado interno */
 }
