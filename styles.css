@@ -6,11 +6,14 @@ background-color: #ffcc00; /* color amarillo brillante */
 }
 /* Estilos para h1 */
 h1 {
-  text-align: center;
-  font-size: 3rem;
-  color: #2c3e50;
-  margin-top: 50px;
+  .intro-text {
+  text-align: center; /* Centra el texto */
+  font-size: 1.2rem;  /* Ajusta el tamaño de la fuente */
+  color: #333;        /* Cambia el color si lo deseas */
+  margin-top: 20px;  /* Agrega un margen superior para separar del título */
+  line-height: 1.5;   /* Espaciado entre líneas */
 }
+
 .header h1 {
   margin: 0;
   font-size: 2.5rem;
