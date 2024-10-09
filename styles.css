@@ -4,7 +4,13 @@ background-color: #ffcc00; /* color amarillo brillante */
   color: #333333;
   font-family: 'Roboto', sans-serif; /* Usa solo una fuente */
 }
-
+/* Estilos para h1 */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-top: 50px;
+}
 .header h1 {
   margin: 0;
   font-size: 2.5rem;
