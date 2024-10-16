@@ -1,7 +1,7 @@
 /* Tipografía general */
 body {
-background-color: #add8e6; /* Celeste */
-  color: #333333;
+background-color: #75AADB; /* Fondo celeste */
+            color: white; /* Texto blanco para contraste */
   font-family: 'Roboto', sans-serif; /* Usa solo una fuente */
 }
 /* Estilos para h1 */
