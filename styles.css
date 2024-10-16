@@ -1,7 +1,7 @@
 /* Tipografía general */
 body {
-background-color: white; /* Fondo blanco */
-           color: black; /* Texto negro */
+background-color: #003366; /* Fondo azul oscuro */
+    color: white; /* Texto blanco para buen contraste */
   font-family: 'Roboto', sans-serif; /* Usa solo una fuente */
 }
 /* Estilos para h1 */
