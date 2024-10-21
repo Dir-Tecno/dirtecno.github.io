@@ -28,9 +28,13 @@ h1 {
 }
 
 section {
-    padding: 50px 20px; /* Añade más espacio dentro de cada sección */
-    margin-bottom: 30px; /* Espacio entre secciones */
-    background-color: #f5f5f5; /* Color de fondo claro */
+     padding: 60px 20px;
+  margin: 20px auto;
+  max-width: 1000px; /* Limita el ancho máximo para mejorar la legibilidad */
+  background-color: #f5f5f5; /* Fondo claro para las secciones */
+} 
+ section:nth-of-type(even) {
+  background-color: #e9ecef; /* Alterna el color de fondo para diferenciar secciones */
 }
   /* Hero Section */
 .hero {
@@ -173,53 +177,39 @@ os de la barra de navegación */
     text-decoration: underline;
 }
 /* Botones */
-button, .btn {
-    background-color:#007BFF; /* Azul vibrante */
-    color: white; /* Texto blanco */
-    border: none;
-    padding: 10px 20px; /* Ajustar tamaño según necesidad */
-    border-radius: 5px; /* Un borde redondeado para estilo moderno */
-     text-decoration: none; /* Elimina el subrayado */
- display: block;
-    margin: 20px auto; /* Centra y separa los botones */
-    padding: 10px 20px; /* Tamaño adecuado para los botones */
+button {
+  background-color: #28A745; /* Color verde para los botones */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
 }
 
-button:hover, a:hover {
-  background-color:  #0056b3; /* Un azul más oscuro al hacer hover */
-  transform: scale(1.05);
+button:hover {
+  background-color: #218838; /* Color más oscuro al pasar el cursor */
 }
 
 /* Navegación */
 nav {
-  background-color: #333;
-  padding: 10px;
-  text-align: center; /* Centra los elementos del menú */
-    margin-bottom: 20px; /* Espacio entre el menú y el contenido */
-}
-nav a {
-    margin: 0 15px; /* Espacio entre los enlaces */
-    color: #007BFF; /* Color de los enlaces */
-    text-decoration: none;
-}
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  background-color: #007BFF; /* Color de fondo del menú */
+  padding: 10px;
 }
 
-nav ul li {
-  margin: 0 15px;
-}
-
-nav ul li a {
+nav a {
   color: white;
+  margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
 /* Media Queries */
 @media (max-width: 768px) {
   .container {
