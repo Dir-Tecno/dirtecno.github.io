@@ -1,7 +1,7 @@
 /* Tipografía general */
 body {
  background-color: #333333;
-    color:#4F4F4F;
+    color:#333333;
   font-family: 'Roboto', sans-serif;
     font-size: 16px; /* Ajusta el tamaño de la fuente */
 }
@@ -177,7 +177,7 @@ os de la barra de navegación */
 /* Botones */
 button, .btn {
     background-color:#007BFF;
-    color: #fff;
+    color: #007BFF;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
