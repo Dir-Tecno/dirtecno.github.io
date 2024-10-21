@@ -28,12 +28,10 @@ h1 {
 }
 
 section {
-  background-color: white;
-   padding: 40px 20px;
-    margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-} 
+    padding: 50px 20px; /* Añade más espacio dentro de cada sección */
+    margin-bottom: 30px; /* Espacio entre secciones */
+    background-color: #f5f5f5; /* Color de fondo claro */
+}
   /* Hero Section */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('tu-imagen.jpg') no-repeat center center/cover;
@@ -182,6 +180,9 @@ button, .btn {
     padding: 10px 20px; /* Ajustar tamaño según necesidad */
     border-radius: 5px; /* Un borde redondeado para estilo moderno */
      text-decoration: none; /* Elimina el subrayado */
+ display: block;
+    margin: 20px auto; /* Centra y separa los botones */
+    padding: 10px 20px; /* Tamaño adecuado para los botones */
 }
 
 button:hover, a:hover {
@@ -193,8 +194,14 @@ button:hover, a:hover {
 nav {
   background-color: #333;
   padding: 10px;
+  text-align: center; /* Centra los elementos del menú */
+    margin-bottom: 20px; /* Espacio entre el menú y el contenido */
 }
-
+nav a {
+    margin: 0 15px; /* Espacio entre los enlaces */
+    color: #007BFF; /* Color de los enlaces */
+    text-decoration: none;
+}
 nav ul {
   list-style: none;
   padding: 0;
